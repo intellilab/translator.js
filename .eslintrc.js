@@ -11,6 +11,7 @@ module.exports = {
   },
   globals: {
     VM: true,
+    GM_addStyle: true,
     GM_xmlhttpRequest: true,
     GM_getValue: true,
     GM_setValue: true,

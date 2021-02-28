@@ -16,7 +16,7 @@
     "build": "npm run build:js --production",
     "lint": "eslint .",
     "ci": "npm run lint",
-    "clean": "del dist",
+    "clean": "del-cli dist",
     "build:js": "rollup -c rollup.conf.js",
     "prepublishOnly": "npm run build"
   },
